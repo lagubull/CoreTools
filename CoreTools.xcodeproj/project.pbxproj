@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		3BD5433A1C43DAB800988126 /* CoreTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BD543391C43DAB800988126 /* CoreTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BD543431C43DB4500988126 /* JCTTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BD543411C43DB4500988126 /* JCTTools.h */; };
+		3BD543441C43DB4500988126 /* JCTTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD543421C43DB4500988126 /* JCTTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3BD543361C43DAB800988126 /* CoreTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoreTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BD543391C43DAB800988126 /* CoreTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreTools.h; sourceTree = "<group>"; };
 		3BD5433B1C43DAB800988126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BD543411C43DB4500988126 /* JCTTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCTTools.h; sourceTree = "<group>"; };
+		3BD543421C43DB4500988126 /* JCTTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCTTools.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 			children = (
 				3BD543391C43DAB800988126 /* CoreTools.h */,
 				3BD5433B1C43DAB800988126 /* Info.plist */,
+				3BD543411C43DB4500988126 /* JCTTools.h */,
+				3BD543421C43DB4500988126 /* JCTTools.m */,
 			);
 			path = CoreTools;
 			sourceTree = "<group>";
@@ -59,6 +65,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BD543431C43DB4500988126 /* JCTTools.h in Headers */,
 				3BD5433A1C43DAB800988126 /* CoreTools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BD543441C43DB4500988126 /* JCTTools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
